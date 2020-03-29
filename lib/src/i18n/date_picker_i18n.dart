@@ -1,5 +1,6 @@
 import 'dart:math';
 
+part 'strings_no_nb.dart';
 part 'strings_en_us.dart';
 part 'strings_zh_cn.dart';
 part 'strings_pt_br.dart';
@@ -34,6 +35,10 @@ abstract class _StringsI18n {
 }
 
 enum DateTimePickerLocale {
+
+  /// Norwegian (NO) Bokmål
+  no_nb,
+
   /// English (EN) United States
   en_us,
 
@@ -79,6 +84,7 @@ const DateTimePickerLocale DATETIME_PICKER_LOCALE_DEFAULT =
     DateTimePickerLocale.en_us;
 
 const Map<DateTimePickerLocale, _StringsI18n> datePickerI18n = {
+  DateTimePickerLocale.no_nb: const _StringsNoNb(),
   DateTimePickerLocale.en_us: const _StringsEnUs(),
   DateTimePickerLocale.zh_cn: const _StringsZhCn(),
   DateTimePickerLocale.pt_br: const _StringsPtBr(),
