@@ -1,4 +1,4 @@
-# Flutter Cupertino Date Picker
+# Flutter Cupertino Date Picker [Forked to include Norwegian locale]
 
 [[pub packages]](https://pub.dartlang.org/packages/flutter_cupertino_date_picker)
 | [中文说明](./README_zh-cn.md)
